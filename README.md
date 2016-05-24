@@ -34,11 +34,13 @@ To make it work, you would have to edit the connection string in the web-config 
 <blockquote>
   <pre>
     <code>
+    <xmp>
    <connectionStrings>
     <remove name="LocalSqlServer"></remove>
     <add name="FastLearnCon" connectionString="Data Source=yourservername; Initial Catalog=FastLearnDb;Integrated Security = true;" />
     <add name="LocalSqlServer" connectionString="Data Source=yourservername; Initial Catalog=FastLearnDb;Integrated Security = SSPI;"/>
   </connectionStrings>
+  </xmp>
   </code>
   </pre>
   </blockquote>
