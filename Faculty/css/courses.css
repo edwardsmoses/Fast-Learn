@@ -1,0 +1,86 @@
+﻿body {
+}
+
+.coursecard
+{
+    margin-top:20px;
+    background-color:#fff;
+    border: 1px solid rgba(0,0,0,0.1);
+    padding:30px 30px;
+}
+
+.coursecard .about
+{
+    font-family:'Segoe UI';
+    color:black;
+    white-space:pre-wrap;
+    margin: 0 0 12px 0;
+    font-size:24px;
+}
+
+.coursecard .aboutname
+{
+    font-size:18px;
+    float:left;
+    font-family:'Open Sans Regular';
+    padding-top:15px;
+    padding-left:10px;
+}
+
+.coursecard .info
+{
+    margin-bottom:10px;
+    font-family:'Open Sans Bold';
+    font-weight:normal;
+}
+
+.coursecard .image
+{
+    max-width:64px;
+    max-height:64px;
+    float:left;
+    margin-left:20px;
+}
+
+.coursecard .instruct
+{
+    margin:16px 0;
+}
+.startdate
+{
+    background-color: #202f3a;
+        padding: 16px 24px;
+        font-family:'Open Sans Regular';
+        font-weight:bold;
+        color:#fff;
+        margin-top:20px;
+        height:210px;
+}
+
+.startdate .heading
+{
+        margin-bottom:10px;
+}
+
+.startdate .date
+{
+    font-size:20px;
+    margin-bottom:10px;
+    font-family:'Open Sans Bold';
+}
+
+.startdate .enroll
+{
+    margin-top:10px;
+    border-radius:0px;
+    font-family:'Segoe UI';
+    /*padding: 15px;*/
+    width:90px;
+    font-weight:bold;
+}
+
+.startdate .enroll:disabled
+{
+    cursor:pointer;
+}
+

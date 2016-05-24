@@ -1,0 +1,62 @@
+vigation" />
+				<xsd:attribute name="AlternateUrl" type="xsd:anyURI" vs:category="Navigation" />
+				<xsd:attribute name="SoftKeyLabel" type="xsd:string" vs:category="Behavior" />
+				<xsd:choice>
+						<xsd:element name="DeviceSpecific" type="DeviceSpecificType" form="unqualified" />
+				</xsd:choice>
+		</xsd:complexType>
+		<!-- <mobile:Command> -->
+		<xsd:complexType name="CommandType" mixed="true">
+				<xsd:attributeGroup ref="TextControlAttributes" />
+				<xsd:attribute name="SoftkeyLabel" type="xsd:string" vs:category="Behavior" />
+				<xsd:attribute name="CausesValidation" type="boolean" vs:category="Behavior" />
+				<xsd:attribute name="CommandName" type="xsd:string" vs:category="Behavior" />
+				<xsd:attribute name="CommandArgument" type="xsd:string" vs:category="Behavior" />
+				<xsd:attribute name="ImageUrl" type="xsd:anyURI" vs:category="Appearance" />
+				<xsd:attribute name="Format">
+						<xsd:simpleType>
+								<xsd:restriction base="xsd:string">
+										<xsd:enumeration value="Button" />
+										<xsd:enumeration value="Link" />
+								</xsd:restriction>
+						</xsd:simpleType>
+				</xsd:attribute>
+	<!-- Events -->
+				<xsd:attribute name="OnClick" vs:omtype="event" vs:category="Action" />
+				<xsd:attribute name="OnItemCommand" vs:omtype="event" vs:category="Action" />
+				<xsd:choice>
+						<xsd:element name="DeviceSpecific" type="DeviceSpecificType" form="unqualified" />
+				</xsd:choice>
+		</xsd:complexType>
+		<!-- <mobile:Link> -->
+		<xsd:complexType name="LinkType" mixed="true">
+				<xsd:attributeGroup ref="TextControlAttributes" />
+				<xsd:attribute name="SoftkeyLabel" type="xsd:string" vs:category="Behavior" />
+				<xsd:attribute name="NavigateUrl" type="xsd:anyURI" vs:category="Navigation" />
+				<xsd:choice>
+						<xsd:element name="DeviceSpecific" type="DeviceSpecificType" form="unqualified" />
+				</xsd:choice>
+		</xsd:complexType>
+		<!-- <mobile:StyleSheet> -->
+		<xsd:complexType name="StyleSheetType">
+				<xsd:attribute name="ID" type="xsd:string" />
+				<xsd:attribute name="ReferencePath" type="xsd:string" vs:category="Behavior" />
+				<xsd:attribute name="Runat" type="RunatType" />
+				<xsd:choice>
+						<xsd:element name="Style" type="StyleType" />
+						<xsd:element name="PagerStyle" type="PagerStyleType" form="unqualified"/>
+				</xsd:choice>
+	<!-- Events --> 
+				<xsd:attribute name="OnInit" vs:omtype="event" />
+				<xsd:attribute name="OnUnload" vs:omtype="event" />
+				<xsd:attribute name="OnDisposed" vs:omtype="event" />
+				<xsd:attribute name="OnPreRender" vs:omtype="event" />
+				<xsd:attribute name="OnLoad" vs:omtype="event" />
+				<xsd:attribute name="OnDataBinding" vs:omtype="event" vs:category="Data" />
+		</xsd:complexType>
+		<!-- <mobile:Image> -->
+		<xsd:complexType name="ImageType">
+				<xsd:attributeGroup ref="MobileControlAttributes" />
+				<xsd:attribute name="AlternateText" type="xsd:string" vs:category="Appearance" />
+				<xsd:attribute name="ImageUrl" type="xsd:anyURI" vs:category="Appearance" />
+	

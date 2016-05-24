@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CountVisitors">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\CountVisitors.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Course">
+    <Position X="6" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAkAAAAAACgAAgAAAAAAQAAAAAAAAAAgAAAEAACAA=</HashCode>
+      <FileName>App_Code\Course.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Faculty">
+    <Position X="4.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAgAAAAAAAAAAAAAAAABACAAAAAAAAAAg=</HashCode>
+      <FileName>App_Code\Faculty.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Material">
+    <Position X="0.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAEAAAAAAAAAAAAAAAAQBAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\Material.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Message">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAQAAAQAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>App_Code\Message.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Query">
+    <Position X="4.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAQAAACA=</HashCode>
+      <FileName>App_Code\Query.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Student">
+    <Position X="2.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAgAAAAAAAAAAAAAAAABADAAAAAAAAAAg=</HashCode>
+      <FileName>App_Code\Student.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SqlManager">
+    <Position X="7.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAQAAAAAAAAAAAQAABAAAAAAAAAQAAA=</HashCode>
+      <FileName>App_Code\SqlManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Feedback">
+    <Position X="7.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAgAAAAAAQAAAAAAAAAAAAAAQAAACA=</HashCode>
+      <FileName>App_Code\Feedback.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

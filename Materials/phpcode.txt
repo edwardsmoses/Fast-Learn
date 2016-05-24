@@ -1,0 +1,38 @@
+<?php
+/*
+From http://www.html-form-guide.com 
+This is the simplest emailer one can have in PHP.
+If this does not work, then the PHP email configuration is bad!
+*/
+$msg="";
+if(isset($_POST['1submit']))
+{
+    $to = "supservliz@gmail.com";
+    $name = $_POST['1Name'];
+    $email = $_POST['1Email'];
+    $number = $_POST['1Number'];
+    $subject = $name." sent you an email with this address, ".$email."with this number, ".$number;
+    $message = $_POST['1Message'];
+    $from_add = "mcfidel@mcfidelnigeria.dx.am";
+    $headers = "From: $from_add";
+	$headers .= "Reply-To: $from_add \r\n";
+	$headers .= "Return-Path: $from_add\r\n";
+	$headers .= "X-Mailer: PHP \r\n";
+    
+      	
+	
+	if(mail($to,$subject,$message,$headers)) 
+	{
+		//echo "Thank you for contacting us, We would reply soon ";
+header("Location: http://example.com/myOtherPage.php");
+die();
+	} 
+	else 
+	{
+ 	   echo "Comment not sent";
+	}
+}
+?>
+
+<link rel="shortcut icon" href="css/fidelimg/mcfidel_logo.ico" />
+<title> Thanks | McFidel Nigeria Services </title>

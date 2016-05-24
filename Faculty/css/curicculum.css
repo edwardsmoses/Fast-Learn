@@ -1,0 +1,128 @@
+﻿body {
+}
+
+.coursecontainer
+{
+    padding: 15px;
+    border: 1px solid #bbb;
+    font-family:'Source Sans Pro Regular';
+}
+
+h1, h2, h3
+{
+    font-family:'Source Sans Pro Regular';
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+
+
+.fcourse
+{
+    background-color:white;
+    width:100%;
+    border: #969696 solid 1px;
+    border-right:5px solid #969696;
+    padding:10px;
+    cursor:pointer;
+    margin-bottom:20px;
+}
+
+.fcourse:hover, .fcourse:active
+{
+     border: #e74c3c solid 0.3px !important;
+    border-right: #e74c3c solid 5px !important;
+    transition:0.2s;
+}
+.fcourse img
+{
+    max-width:110px;
+    min-height:100px;
+    max-height:100px;
+    float:left;
+    margin-left:20px;
+    margin-top:10px;
+    margin-right:20px;
+    padding-bottom:20px;
+}
+
+.h3
+{
+    font-family:'Source Sans Pro Bold';
+    font-weight:bold;
+    margin-left:150px;
+    max-width:500px;
+    overflow-wrap:break-word;
+    padding-right:20px;
+}
+
+.p
+{
+    font-family:'Source Sans Pro Light';
+    padding-left:150px;
+    font-weight:900;
+    margin-top:-5px;
+}
+
+.live
+{
+    font-family:'Source Sans Pro Bold';
+   color:green;
+   font-weight:bolder;
+   font-size:1.2em;
+   float:left;
+   margin-top:30px;
+   margin-left:15px;
+}
+
+.price
+{
+    font-family:'Source Sans Pro Light';
+    font-weight:900;
+    /*margin-left:35%;*/
+    font-size:1.3em;
+}
+
+
+
+.fcoursecontainer
+{
+    min-height:300px;
+    margin-left:20px;
+}
+
+.students
+{
+    font-family:'Source Sans Pro Light';
+    font-size:2.5em;
+}
+
+.left
+{
+    margin-top:-20px;
+}
+
+.right
+{
+    margin-top:-70px;
+}
+
+.studentsno{
+    margin-top: -50px;
+  position: absolute;
+   right: 35px;
+}
+
+.student{
+    margin-top: -80px;
+  position: absolute;
+   right: 30px;
+}
+
+.dropw{
+   float:right;
+}
+
+.dropmenu{
+    margin-top:20px;
+}

@@ -1,0 +1,240 @@
+﻿html
+{
+position:relative;
+min-height:100%;
+}
+
+
+body {
+    background-color: #ebebeb;
+    height:100%;
+}
+
+/*footer styles*/
+.gray-text
+{
+   color:#808080;
+    font-family:'Segoe UI Emoji';
+    font-size:1em;
+}
+
+.white-text
+{
+    color:white;
+    font-family:'Segoe UI Emoji';
+    font-size:1em;
+}
+
+.footer
+{
+    border:0px;
+    border-radius:0px;
+        border-top: 1px solid #e5e5e5;
+        background-color:#e5e5e5;
+}
+
+.navbar-bottom
+{
+    border-radius:0px;
+    bottom:0;
+    margin-bottom:-50px;
+}
+
+.socials{
+	font-size: 1.5em;
+	text-decoration: none;
+	color: #FFFFFF;
+	-webkit-transition: all 0.95s ease;
+-moz-transition: all 0.95s ease;
+-o-transition: all 0.95s ease;
+-ms-transition: all 0.95s ease;
+transition: all 0.95s ease;
+}
+
+.socials a:hover{
+    text-decoration:none;
+    border:0px;
+    background-color:transparent;
+}
+.socials a
+{
+    margin-right:10px;
+}
+.rowfooter{
+	float: right;
+	margin-right:20px; 
+    text-decoration:none;
+    margin-bottom:5px;
+}
+
+.browseLayout
+{
+    background-color: #ebebeb;
+    position: relative;
+    font-size:14px;
+    font-family:'Segoe UI Emoji';
+    line-height:21px;
+    min-height:100%;
+    padding-bottom:90px;
+    margin: 0 auto -95px;
+}
+
+.coverphoto
+{
+    width: 100%;
+    background-position: center;
+    background-image:url("../../images/catalogcover.png");
+}
+
+
+.coverheader
+{
+    padding-top: 45px;
+    padding-bottom: 10px;
+    max-width:960px;
+    margin:0 auto;
+    font-family:'Open Sans Bold';
+    color:white;
+}
+
+.breadcrumbs
+{
+    margin-bottom:20px;
+    background-color:transparent;
+}
+
+.breadcrumbs a
+{
+    color:white;
+}
+.breadcrumbs a:hover{
+    text-decoration:none;
+    color:lightgray;
+    transition:0.3s;
+}
+.maincontainer
+{
+    padding-left:0px;
+    padding-right:0px;
+}
+
+.coversummary
+{
+    color:white;
+    font-family:Candara;
+}
+
+.childbox
+{
+    width:200px;
+}
+.rootboxcontainer
+{
+    z-index:1;
+}
+.subcontainer
+{
+    display: block;
+    z-index: auto;
+    top: auto;
+    left: auto;
+    width: 250px;
+    position: static;
+}
+
+.childboxselected
+{
+    background-color: #fff !important;
+    color: #2775d1 !important;
+    transition:0.3s;
+    text-decoration:none;
+    cursor:pointer;
+    font-family:'Open Sans Bold';
+}
+
+.courses
+{
+    background-color: #fff;
+    border: 1px solid #dcdcdc;
+    margin-bottom: 10px;
+    min-height: 120px;
+    padding: 10px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    margin-top:10px;
+        box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.2);
+}
+
+.coursed:first-child{
+    margin-top:35px;
+}
+
+.coursed:last-child{
+    margin-bottom:40px;
+}
+.coursesinfo h2
+{
+    color: #000;
+    margin-bottom: 8px;
+    line-height: 24px;
+}
+
+.coursesinfo .price
+{
+    float:right;
+    margin-left:20px;
+    top:0;
+    color:black;
+    font-family:Calibri;
+    font-weight:bolder;
+    font-size:20px;
+}
+.coursesinfo .time
+{
+    background-color: #969696;
+    float:left;
+    color:white;
+    font-family:'Open Sans Regular';
+    font-weight:bold;
+    /*border-radius:20px;*/
+    padding:5px;
+    margin-right:20px;
+    margin-top:5px;
+}
+.coursesinfo p
+{
+    color: #b3b3b3;
+}
+
+.courses:hover{
+        background-color: #f7f7f7;
+        transition:0.3s;
+}
+
+.courses img
+{
+    width:100px;
+    height:100px;
+}
+
+.footers
+{
+ position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 90px;
+  /*background-color: #f5f5f5;*/
+  /*background-color: #4a4d55;*/
+      background-color: #222;
+  margin-bottom:0px;
+   margin: 0 auto -90px;
+  /* Pad bottom by footer height */
+  padding: 0 0 90px;
+  border-radius:0px;
+}
+
+.nav > li > a:active {
+    background-color: #eee;
+}

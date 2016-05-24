@@ -1,0 +1,142 @@
+﻿body {
+}
+
+.paymentcontainer
+{
+    max-width: 700px;
+    padding: 24px;
+    float: none;
+    margin: 36px auto;
+    background-color:#fff;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.paymentcontainer .header
+{
+    font-size: 32px;
+    line-height: 36px;
+    font-family:'Open Sans Light';
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight:normal;
+}
+
+.paymentcontainer .productsummary
+{
+    background: #dae8f1;
+    border: 1px solid #d8dee5;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    color: #757575;
+    padding: 10px;
+}
+
+.productsummary .order
+{
+    font-size: 14px;
+    line-height: 21px;
+    font-family:'Segoe UI Symbol';
+}
+
+.productsummary .cartitem
+{
+    color: #333;
+    margin: 10px -10px;
+    padding: 10px;
+    display:flexbox;
+    flex-direction:row;
+}
+
+
+.cartitem .image
+{
+    margin-right:30px;
+    float:right;
+    top:23.5%;
+    position:absolute;
+    width:120px;
+    height:100px;
+}
+.creditcard
+{
+    margin-top:20px;
+    border: 1px solid #d8dee5;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    color: #666;
+    padding: 10px;
+}
+.creditcardbody
+{
+        background: #efefef;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    min-height: 310px;
+}
+.enroll
+{
+    border-radius:0px;
+    font-family:'Segoe UI';
+    width:120px;
+    font-weight:bold;
+    margin-bottom:30px;
+    text-align:center;
+    margin-top:10px;
+}
+
+.creditcardbody .rows
+{
+    margin-left:50px;
+    margin-top:20px;
+    
+}
+
+
+.creditcardbody .rows label
+{
+   
+}
+.textbox
+{
+    font-family:'Open Sans Regular';
+    max-width:100%;
+}
+.creditcard .headerpanel
+{
+    background-color:transparent;
+}
+.cartitem .coursename
+{
+    font-family:'Open Sans Bold';
+    /*text-align:center;*/
+    margin-left:140px;
+}
+
+.cartitem .cartprice
+{
+    font-weight:bold;
+    font-size:20px;
+}
+
+.paymentcontainer .p
+{
+    font-size:15px;
+    font-family:'Open Sans Regular';
+}
+
+.paymentcontainer .a
+{
+    cursor:pointer;
+}
+.paymentcontainer .a:hover{
+    text-decoration:none;
+}
+
+#lcheckbox:checked::after
+{
+    content: url(../../images/checkmark.png);
+    display: block;
+    position: absolute;
+    top: -6px;
+    left: -5px;
+}
