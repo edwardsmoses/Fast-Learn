@@ -16,6 +16,7 @@ DATABASE NAME:  FastLearnDb
 
 NUMBER OF TABLES: 9
 
+<pre>
 TABLE NAMES:  
 ⦁	Courses
 ⦁	Faculty
@@ -26,13 +27,14 @@ TABLE NAMES:
 ⦁	Query
 ⦁	Feedback
 ⦁	Materials
-
+</pre>
 This project is an E-Learn Website, with all features working perfectly. 
 To make it work, you would have to edit the connection string in the web-config file, and attach the db to your sql server:
 
+<xmp>
    <connectionStrings>
     <remove name="LocalSqlServer"></remove>
     <add name="FastLearnCon" connectionString="Data Source=yourservername; Initial Catalog=FastLearnDb;Integrated Security = true;" />
     <add name="LocalSqlServer" connectionString="Data Source=yourservername; Initial Catalog=FastLearnDb;Integrated Security = SSPI;"/>
   </connectionStrings>
-  
+  </xmp>
